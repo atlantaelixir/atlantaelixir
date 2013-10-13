@@ -1,0 +1,26 @@
+body {
+  background-color: #A68FB1;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 { 
+  color: #F9F9F9;
+  font-family: 'Bitter', Georgia, serif;
+  font-size: 176px;
+  font-weight: 700;
+  margin: 100px auto;
+}
+
+h1.headline {
+  line-height: 152px;
+  text-align: center;
+  width: 800px;
+}
+
+h1 span.muted {
+  color: #D0C4D5;
+  font-size: 128px;
+}

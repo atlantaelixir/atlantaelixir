@@ -2,14 +2,17 @@
 <html>
 <head>
   <title><%= @title %></title>
-  <link rel="shortcut icon" href="/static/favicon.ico" />
+  <link rel="shortcut icon" href="/static/favicon.ico">
+  <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-  <h3>Welcome to Dynamo!</h3>
-  <ol>
-    <li>Change this template at <code>web/templates/index.html.eex</code></li>
-    <li>Add new routes at <code>web/routers/application_router.ex</code></li>
-    <li>Deploy to production with <code>MIX_ENV=prod mix do compile, server</code></li>
-  </ol>
+  <a href="http://meetup.com/atlantaelixir">
+    <h1 class="headline">
+      <span class="muted">Atlanta</span>
+      Elixir
+      <span class="muted">Meetup</span>
+    </h1>
+  </a>
 </body>
 </html>
