@@ -4,6 +4,7 @@ defmodule Atlantaelixir.Mixfile do
   def project do
     [ app: :atlantaelixir,
       version: "0.0.1",
+      elixir: "~> 0.11.0",
       dynamos: [Atlantaelixir.Dynamo],
       compilers: [:elixir, :dynamo, :app],
       env: [prod: [compile_path: "ebin"]],
