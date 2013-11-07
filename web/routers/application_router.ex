@@ -6,6 +6,7 @@ defmodule ApplicationRouter do
     # You can comment the line below if you don't need
     # any of them or move them to a forwarded router
     conn.fetch([:cookies, :params])
+    conn.assign(:layout, "layout")
   end
 
   # It is common to break your Dynamo into many

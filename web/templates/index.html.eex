@@ -1,18 +1,7 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <title><%= @title %></title>
-  <link rel="shortcut icon" href="/static/favicon.ico">
-  <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/static/style.css">
-</head>
-<body>
-  <a href="http://meetup.com/atlantaelixir">
-    <h1 class="headline">
-      <span class="muted">Atlanta</span>
-      Elixir
-      <span class="muted">Meetup</span>
-    </h1>
-  </a>
-</body>
-</html>
+<a href="http://meetup.com/atlantaelixir">
+  <h1 class="headline">
+    <span class="muted">Atlanta</span>
+    Elixir
+    <span class="muted">Meetup</span>
+  </h1>
+</a>
