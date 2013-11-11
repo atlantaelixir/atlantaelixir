@@ -1,0 +1,6 @@
+<p>All posts:</p>
+<ul>
+<%= lc thing inlist @all_posts do %>
+  <li><%= thing %></li>
+<% end %>
+</ul>
