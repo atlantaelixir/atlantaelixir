@@ -10,7 +10,7 @@
   <div id="navbar">
     <ul id="links">
       <li class="navbar-link">
-        <a href="posts">Posts</a>
+        <a href="/posts">Posts</a>
       </li>
       <li>
         <a href="/">Home</a>
